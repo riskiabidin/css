@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Padding CSS </title>
+    <style>
+        .one {
+            border: 1px solid black;
+            background-color: lightblue;
+            padding-top: 50px;
+            padding-right: 30px;
+            padding-bottom: 50px;
+            padding-left: 80px;
+        }
+
+        .two {
+            border: 1px solid black;
+            background-color: lightblue;
+            padding: 25px 50px 75px 100px;
+        }
+
+        .three {
+            border: 1px solid black;
+            background-color: lightblue;
+            padding: 25px 50px 75px;
+        }
+
+        .four {
+            border: 1px solid black;
+            background-color: lightblue;
+            padding: 25px 50px;
+        }
+
+        .five {
+            border: 1px solid black;
+            background-color: lightblue;
+            padding: 25px;
+        }
+
+        .six {
+            background-color: yellow;
+            width: 300px;
+        }
+
+        .seven {
+            background-color: lightblue;
+            width: 300px;
+            padding: 25px;
+        }
+
+        .eight {
+            background-color: lightblue;
+            width: 300px;
+            padding: 25px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Padding - Individual</h1>
+    <ul>
+        <li>padding-top</li>
+        <li>padding-right</li>
+        <li>padding-bottom</li>
+        <li>padding-left</li>
+    </ul>
+    <p>All the padding properties can have the following values:</p>
+    <ul>
+        <li>lenght-specifies a padding in px, pt, cm, etc.</li>
+        <li>%-specifies a padding in % of the width of the containing element.</li>
+        <li>inherit-specifies that the padding should be inherited from the parent element</li>
+    </ul>
+    <p><strong>Note:</strong> values are not allowed</p>
+    <h1>Using individual padding properties.</h1>
+    <div class="one">This div element has a top padding of 50px, right padding of 30px, a bottom padding of 50px, and a
+        left padding of 80px.</div>
+    <hr />
+    <h1>The padding shorthand property - 4 values</h1>
+    <div class="two">This div element has a top padding of 25px, a right padding of 50px, a bottom padding of 75px, and
+        a left padding of 100px </div>
+    <hr />
+    <h1>The padding shorthand property - 3 values</h1>
+    <div class="three">This div element has a top padding of 25px, a right and left padding of 50px, and a bottom
+        padding of 75px.</div>
+    <hr />
+    <h1>The padding shorthand property - 2 values</h1>
+    <div class="four">This div element has a top and bottom padding of 25px, and a right and left padding of 50px.</div>
+    <hr />
+    <h1>The padding shorthand property - 1 value</h1>
+    <div class="five">This div element has a top, bottom, left and right padding of 25px.</div>
+    <hr />
+    <h1>Padding and element width</h1>
+    <div class="six">This div is 300px wide</div>
+    <div class="seven"> the with of this div is 350px, even thought is defined as 300px in the css</div>
+    <hr />
+    <h1>Padding and element width - with box-sizing</h1>
+    <div class="six">This div is 300px wide.</div>
+    <div class="eight">The width of this div remains at 300px, in spite of the 50px of total left and right padding, because of the box sizing: border-box property</div>
+</body>
+
+</html>
