@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Borders HTML</title>
+    <style>
+        p.dotted{border-style: dotted;}
+        .dashed{border-style: dashed;}
+        .solid{ border-style: solid;}
+        .double{border-style: double;}
+        .groove{border-style: groove;}
+        .ridge{border-style: ridge;}
+        .inset{border-style: inset;}
+        .outset{border-style: outset;}
+        .none{border-style: none;}
+        .hidden{border-style: hidden;}
+        .mixed{border-style: dotted dashed solid double;}
+        .one{
+            border-style: solid;
+            border-width: 5px;
+        }
+        .two{
+            border-style: solid;
+            border-width: medium;
+        }
+        .three{
+            border-style: dotted;
+            border-width: 2px;
+        }
+        .four{
+            border-style: dotted;
+            border-width: thick;
+        }
+        .five{
+            border-style: double;
+            border-width: 15px;
+        }
+        .six{
+            border-style: double;
+            border-width: thick;
+        }
+        .seven{
+            border-style: solid;
+            border-width: 5px 20px;/*5px top and bottom, 20px on the sides.*/
+        }
+        .eight{
+            border-style: solid;
+            border-width: 25px 10px 4px 35px;/*top, right, bottom, left*/
+        }
+        .nine{
+            border-style: solid;
+            border-color: brown;
+        }
+        .ten{
+            border-style: solid;
+            border-color: yellow;
+        }
+        .eleven{
+            border-top-style: dotted;
+            border-right-style: solid;
+            border-bottom-style: dotted;
+            border-left-style: solid;
+        }
+        .twelve{
+            border: 6px solid blue;
+        }
+        .thirdteen{
+            border-left: 6px solid red;
+            background-color: grey;
+        }
+        .fourteen{
+            border-bottom: 6px solid red;
+            background-color: grey;
+        }
+        .fiveteen{
+            border: 5px solid red;
+            border-radius: 12px;
+        }
+    </style>
+</head>
+
+<body>
+    <p class="dotted">A dotted border</p>
+    <p class="dashed">A dashed border</p>
+    <p class="solid">A sholid border</p>
+    <p class="double">A double border</p>
+    <p class="groove">A groove border. The effect depends on the border-color-value</p>
+    <p class="ridge">A ridge border. The effect depends on the border-color value</p>
+    <p class="inset">An inset border. The effect depends on the border color value.</p>
+    <p class="outset">An outset border. The effect depends on the border-color value.</p>
+    <p class="none">No border</p>
+    <p class="hidden">A hidden border</p>
+    <p class="mixed">A mixed border</p>
+    <p class="one">One</p>
+    <p class="two">Two</p>
+    <p class="three">three</p>
+    <p class="four">four</p>
+    <p class="five">five</p>
+    <p class="six">six</p>
+    <p class="seven">5px top and bottom, 20px on the sides</p>
+    <p class="eight">top, right, bottom, left</p>
+    <p class="nine">style solid and color brown</p>
+    <p class="ten">style solid and color yellow</p>
+    <p class="eleven">border-top-style, border-right-style, border-bottom-style, border-left-style</p>
+    <p class="twelve">width, style, color</p>
+    <p class="thirdteen">Using shorthand border-left and background-color</p>
+    <p class="fourteen">Using shorthand border-bottom and background-color</p>
+    <p class="fiveteen">using radius/rounded</p>
+</body>
+
+</html>
