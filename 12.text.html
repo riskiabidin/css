@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Text CSS</title>
+    <style>
+        .one {
+            border: 1px solid black;
+            text-align: justify;
+            padding: 10px;
+            width: 200px;
+        }
+
+        .two {
+            direction: rtl;
+            unicode-bidi: bidi-override;
+        }
+
+        .top {
+            vertical-align: top;
+        }
+
+        .midle {
+            vertical-align: middle;
+        }
+
+        .bottom {
+            vertical-align: bottom;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Text Color</h2>
+    <p>The color property is used to set the color of the text. the color is specified by:</p>
+    <ul>
+        <li>a color name - like "red"</li>
+        <li>a HEX value - like "#ff0000"</li>
+        <li>an RGB value - like rgb(255,0,0)</li>
+    </ul>
+    <hr />
+    <h1 style="color: green;">This is heading 1</h1>
+    <p style="background-color: orange; padding: 20px;">
+        <strong>Note:</strong> For W3C compliant CSS:if you define the <span style="color: red;">color</span> property,
+        you must also define the <span style="color: red;">background-color</span>
+
+    </p>
+    <hr />
+    <h1>CSS Text Alignment</h1>
+    <h1 style="text-align: center;">Heading 1 (center)</h1>
+    <h2 style="text-align: left;">Heading 2 (left)</h2>
+    <h3 style="text-align: right;">Heading 3 (right)</h3>
+    <div class="one">In my younger and more vulnerable years my father gave me some advice that I've been turning over
+        in my mind ever since.
+        'Whenever you feel like criticizing anyone,' he told me,
+        'just remember that all the people in this world haven't had the advantages that you've had.'</div>
+    <hr />
+    <p>This is the default text direction.</p>
+    <p>This is right - to - left text direction</p>
+    <p class="two">This is right - to - left text direction</p>
+    <hr />
+    <h1>Vertical Alignment</h1>
+    <p>The vertical-align property set the vertical alignment of an element.</p>
+    <p>This example demonstrates how to set the vertical alignment of an image in a text:</p>
+    <p>
+        An <img src="java.png" alt="java" width="50" height="50">image with a default alignment.
+    </p><br />
+    <p>
+        An <img class="top" src="java.png" alt="java" width="50" height="50">image with a top alignment.
+    </p><br />
+    <p>
+        An <img class="midle" src="java.png" alt="java" width="50" height="50">image with a middle alignment.
+    </p><br />
+    <p>
+        An <img class="bottom" src="java.png" alt="java" width="50" height="50">image with a bottom alignment.
+    </p><br />
+    <hr />
+    <h1>CSS Text Decoration</h1>
+    <p>The text-decoration property is used to set or remove decoration from text.</p>
+    <p>The value text-decoration:none; is often used to remove underlines from links:</p>
+    <p>A link with no underline: <a style="text-decoration: none;" href="https://www.w3schools.com">W3Schools.com</a>
+    </p>
+    <h1 style="text-decoration: overline;">This is heading 1</h1>
+    <h2 style="text-decoration: line-through;">This is heading 2</h2>
+    <h3 style="text-decoration: underline;">This is heading 3</h3>
+    <hr />
+    <h2>CSS Text Transfromation</h2>
+    <p>the text-transform property is used to specify uppercase and lowercase letters in atext.</p>
+    <p>it can be used to turn everything into uppercase or lowecase letters or capitalize the first letter of each word:
+    </p>
+    <p style="text-transform: uppercase;">This is text-transform uppercase</p>
+    <p style="text-transform: ;">THIS IS text-transform lowecase</p>
+    <p style="text-transform: capitalize;"> this is text-transform capitalize</p>
+    <hr />
+    <h1>CSS Text Spacing</h1>
+    <h2>Text indentation.</h2>
+    <p>The text-indent property is used to specify the indentation of the first line of a text:</p>
+    <p style="text-indent: 50px;">In my younger and more vulnerable years my father gave me some advice that I've been
+        turning over in my mind ever since. 'Whenever you feel like criticizing anyone,' he told me,
+        'just remember that all the people in this world haven't had the advantages that you've had.'</p>
+    <h1 style="letter-spacing: 3px;">This is letter-spacing:3px;</h1>
+    <h2 style="letter-spacing: -3px;">This is letter-spacing:-3px;</h2>
+
+<p>
+    This is a paragraph with a standard line-height.<br>
+    The default line height in most browsers is about 110% to 120%.<br>
+    </p>
+    
+    <p style="line-height: 0.7;">
+    This is a paragraph with a smaller line-height.<br>
+    This is a paragraph with a smaller line-height.<br>
+    </p>
+    
+    <p style="line-height: 1.8;">
+    This is a paragraph with a bigger line-height.<br>
+    This is a paragraph with a bigger line-height.<br>
+    </p>
+    <h1 style="word-spacing: 10px;">This is word-spacing:10px;</h1>
+    <h2 style="word-spacing: -5px;">This is word-spacing:-5px;</h2>
+
+<h2>White Space</h2>
+
+<p style="white-space: nowrap;">
+This is some text. This is some text. This is some text.
+This is some text. This is some text. This is some text.
+This is some text. This is some text. This is some text.
+This is some text. This is some text. This is some text.
+This is some text. This is some text. This is some text.
+</p>
+
+<p style="white-space: nowrap;">Try to remove the white-space property to see the difference.</p>
+<h1 style="text-shadow: 2px 2px;">This text-shadow:2px 2px; horizontal 2px vertical 2px</h1>
+<h1 style="text-shadow: 2px 2px red;">This text-shadow:2px 2px red</h1>
+<h1 style="text-shadow: 2px 2px 5px red;">This text-shadow:2p 2px 5px(add blur) and red shadow</h1>
+</body>
+
+</html>
