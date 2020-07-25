@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>List CSS</title>
+    <style>
+        ul.a {
+            list-style-type: circle;
+        }
+
+        ul.b {
+            list-style-type: square;
+        }
+
+        ol.c {
+            list-style-type: upper-roman;
+        }
+
+        ol.d {
+            list-style-type: lower-alpha;
+        }
+
+        ul.e {
+            list-style-image: url(java.png);
+        }
+
+        ul.outside {
+            list-style-position: outside;
+        }
+
+        ul.inside {
+            list-style-position: inside;
+        }
+
+        ul.demo {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+
+        }
+        ol.color1{
+            background-color: pink;
+            padding: 20px;
+        }
+        ul.color2{
+            background-color: blue;
+            padding: 20px;
+        }
+        li.c1{
+            background-color: white;
+            margin: 5px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <p>The CSS list propertties allow you to:</p>
+    <ul>
+        <li>set different list item markers for ordered lists</li>
+        <li>set different list item markers for unordered lists</li>
+        <li>set an image as the list item marker</li>
+        <li>add background colors to lists and list items</li>
+
+    </ul>
+    <h1>Different list item markers</h1>
+
+    <p>Example of unordered lists:</p>
+    <ul class="a">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Coca Cola</li>
+    </ul>
+
+    <ul class="b">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Coca Cola</li>
+    </ul>
+
+    <p>Example of ordered lists:</p>
+    <ol class="c">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Coca Cola</li>
+    </ol>
+
+    <ol class="d">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Coca Cola</li>
+    </ol>
+    <ul class="e">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Coca Cola</li>
+    </ul>
+
+    <h1>The list-style-position Property</h1>
+
+    <h2>list-style-position: outside (default):</h2>
+    <ul class="outside">
+        <li>Coffee - A brewed drink prepared from roasted coffee beans, which are the seeds of berries from the Coffea
+            plant</li>
+        <li>Tea - An aromatic beverage commonly prepared by pouring hot or boiling water over cured leaves of the
+            Camellia sinensis, an evergreen shrub (bush) native to Asia</li>
+        <li>Coca Cola - A carbonated soft drink produced by The Coca-Cola Company. The drink's name refers to two of its
+            original ingredients, which were kola nuts (a source of caffeine) and coca leaves</li>
+    </ul>
+
+    <h2>list-style-position: inside:</h2>
+    <ul class="inside">
+        <li>Coffee - A brewed drink prepared from roasted coffee beans, which are the seeds of berries from the Coffea
+            plant</li>
+        <li>Tea - An aromatic beverage commonly prepared by pouring hot or boiling water over cured leaves of the
+            Camellia sinensis, an evergreen shrub (bush) native to Asia</li>
+        <li>Coca Cola - A carbonated soft drink produced by The Coca-Cola Company. The drink's name refers to two of its
+            original ingredients, which were kola nuts (a source of caffeine) and coca leaves</li>
+    </ul>
+    <p>Default list:</p>
+    <ul>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Coca Cola</li>
+    </ul>
+
+    <p>Remove bullets, margin and padding:</p>
+    <ul class="demo">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Coca Cola</li>
+    </ul>
+    <h1>Styling Lists With Colors:</h1>
+
+    <ol class="color1">
+      <li class="c1">Coffee</li>
+      <li class="c1">Tea</li>
+      <li class="c1">Coca Cola</li>
+    </ol>
+    
+    <ul class="color2">
+      <li class="c1">Coffee</li>
+      <li class="c1">Tea</li>
+      <li class="c1">Coca Cola</li>
+    </ul>
+    
+</body>
+
+</html>
