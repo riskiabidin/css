@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Links</title>
+        <style>
+            a.p1:link{
+                color: red;
+                background-color: black;
+                padding: 10px;
+                text-decoration: none;
+            }
+            a.p1:visited{
+                background-color: grey;
+                color: white;
+                
+            }
+            a.p1:hover{
+                color: white;
+                background-color: black;
+                text-decoration: underline;
+            }
+            a.p1:active{
+                color: white;
+                background-color: darkred;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1>Styling Links</h1>
+        <p>Links can be styled with any CSS property color, font-family, background</p>
+        <p>
+            <b><a href="#" style="color: hotpink;">This is a link</a></b>
+        </p>
+        <p>In addition, links can be styled deifferently depending on what state they are in.</p>
+        <p>The four links states are:</p>
+        <ul>
+            <li>a:link - a normal, unvisited link</li>
+            <li>a:visited - a link the user has visited</li>
+            <li>a:hover -a link when the user mousers over it</li>
+            <li>a:active -a link the moment it is clicked</li>
+        </ul>
+        <p><b><a class="p1" href="#">This is a link</a></b></p>
+    </body>
+</html>
