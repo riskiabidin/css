@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CSS Layout</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .header {
+            padding: 5px;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: grey
+        }
+
+        li {
+            float: left;
+        }
+
+
+        li a {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: #111;
+        }
+
+        li a:active {
+            background-color: red;
+        }
+
+        .active {
+            background-color: red;
+        }
+
+        .sidebar {
+            background-color: silver;
+            width: 10%;
+            height: 500px;
+            text-align: center;
+            overflow: scroll;
+            float: left;
+        }
+
+        .content {
+            padding-left: 20px;
+            float: left;
+            width: 90%;
+            background-color: white;
+            height: 500px;
+            overflow: scroll;
+        }
+
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+
+        }
+        #sidebar1 ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        #sidebar1 ul li a {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        #sidebar1 li a:hover {
+            background-color: #111;
+        }
+
+        #sidebar1 ul li a:active {
+            background-color: red;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>W3SCHOOLS</h1>
+    </div>
+    <div class="navbar">
+        <ul>
+            <li><a class="active" href="#">HTML</a></li>
+            <li><a href="#">CSS</a></li>
+            <li><a href="#">JS</a></li>
+            <li><a href="#">SQL</a></li>
+            <li><a href="#">PYTHON</a></li>
+            <li><a href="#">PHP</a></li>
+            <li><a href="">BOOTSTRAP</a></li>
+        </ul>
+    </div>
+    <div class="clearfix">
+        <div class="sidebar">
+            <h3 class="a1">xxx</h3>
+            <h3 class="a1">xxx</h3>
+            <h3 class="a1">xxx</h3>
+            <h3 class="a1">xxx</h3>
+            <h3 class="a1">xxx</h3>
+            <h3 class="a1">xxx</h3>
+            <h3 class="a1">xxx</h3>
+            <h3 class="a1">xxx</h3>
+            <h3 class="a1">xxx</h3>
+            <h3 class="a1">xxx</h3>
+            <h3 class="a1">xxx</h3>
+            <h3 class="a1">xxx</h3>
+            <h3 class="a1">xxx</h3>
+            <h3 class="a1">xxx</h3>
+            <h3 class="a1">xxx</h3>
+            <h3 class="a1">xxx</h3>
+            <h3 class="a1">xxx</h3>
+            <h3 class="a1">xxx</h3>
+            <h3 class="a1">xxx</h3>
+            <h3 class="a1">xxx</h3>
+            <h3 class="a1">xxx</h3>
+            <h3 class="a1">xxx</h3>
+            <h3 class="a1">xxx</h3>
+            <h3 class="a1">xxx</h3>
+            <h3 class="a1">xxx</h3>
+            <h3 class="a1">xxx</h3>
+            <h3 class="a1">xxx</h3>
+            <h3 class="a1">xxx</h3>
+
+        </div>
+        <div class="content">
+            <h3 class="a1">xxx</h3>
+            <h3 class="a1">xxx</h3>
+            <h3 class="a1">xxx</h3>
+            <h3 class="a1">xxx</h3>
+            <h3 class="a1">xxx</h3>
+            <h3 class="a1">xxx</h3>
+            <h3 class="a1">xxx</h3>
+            <h3 class="a1">xxx</h3>
+            <h3 class="a1">xxx</h3>
+            <h3 class="a1">xxx</h3>
+            <h3 class="a1">xxx</h3>
+            <h3 class="a1">xxx</h3>
+            <h3 class="a1">xxx</h3>
+            <h3 class="a1">xxx</h3>
+            <h3 class="a1">xxx</h3>
+            <h3 class="a1">xxx</h3>
+            <h3 class="a1">xxx</h3>
+            <h3 class="a1">xxx</h3>
+            <h3 class="a1">xxx</h3>
+            <h3 class="a1">xxx</h3>
+            <h3 class="a1">xxx</h3>
+            <h3 class="a1">xxx</h3>
+            <h3 class="a1">xxx</h3>
+            <h3 class="a1">xxx</h3>
+            <h3 class="a1">xxx</h3>
+            <h3 class="a1">xxx</h3>
+            <h3 class="a1">xxx</h3>
+            <h3 class="a1">xxx</h3>
+
+            <div class="footer"></div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
